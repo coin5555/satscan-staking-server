@@ -1,0 +1,46 @@
+{
+  "name": "node-express-mongodb",
+  "version": "1.0.0",
+  "description": "Node.js Restful CRUD API with Node.js, Express and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest",
+    "api",
+    "mongodb"
+  ],
+  "author": "crystal",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "bip174": "^2.1.1",
+    "bitcoin-address": "^0.3.0",
+    "bitcoin-core": "^4.1.0",
+    "bitcoinjs-lib": "^6.1.5",
+    "bitcore-explorers": "^1.0.1",
+    "bitcore-insight": "^1.0.1",
+    "bitcore-lib": "^10.0.21",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "ecpair": "^2.1.0",
+    "ethers": "^5.4.0",
+    "express": "^4.18.2",
+    "jwt-encode": "^1.0.1",
+    "mongoose": "^6.11.1",
+    "nodemon": "^3.0.1",
+    "psbt": "^3.0.0",
+    "send-crypto": "^0.2.38",
+    "taproot": "^0.4.1",
+    "tiny-secp256k1": "^2.2.3",
+    "web3": "^4.1.1"
+  }
+}
