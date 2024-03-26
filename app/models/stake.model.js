@@ -12,7 +12,6 @@ module.exports = (mongoose) => {
   
     schema.method("toJSON", function () {
       const { __v, _id, ...object } = this.toObject();
-      console.log(_id);
       object.id = _id;
       return object;
     });
